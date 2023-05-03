@@ -6,12 +6,15 @@ body {
 h1 {
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 
 .orange-color {
     color: orange;
 }
 
-section {
+.flexiable-container {
     display: flex;
     margin-bottom: 150px;
 }
@@ -35,4 +38,24 @@ section {
 }
 .top-banner{
     background-image: url(images/baner.jpg);
+}
+.experence-area{
+    background-image: url(images/photo-banner.jpg);
+}
+.experence-item{
+    width: 40%;
+    margin-right: 5%;
+    margin-left: 5%;
+    border-radius: 10px;
+    padding-left: 20px;
+    box-shadow: 10px 10px 40px red;
+}
+#full-strack-developer{
+    border-left: 7px solid tomato;
+}
+#baby-web-develpoer{
+    border-left: 7px solid blue;
+}
+footer p{
+    text-align: center;
 }
